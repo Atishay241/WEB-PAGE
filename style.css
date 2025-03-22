@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     font-family: 'Roboto';
     margin: 0;
+    gap: 20px;
 }
 
 
@@ -59,3 +60,32 @@ button {
     width: 500px;
     border-radius: 10%;
 }
+
+
+.second {
+    text-align: center;
+  }
+  
+  .title {
+    margin: 32px 0px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+  .info {
+    max-width: 200px;
+  }
+
+  .chrimg {
+    border-radius: 12px;
+    border: 3px solid rgb(22, 21, 21);
+  }
+
+
